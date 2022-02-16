@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:01:16.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="mrikCcgRNs2YQMCnCJYK" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:57:11.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QzJ-AuVuQB4CQzhRvGRk" version="16.5.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="928" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="sU_c6Er136trvMsLBxcg-67" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="510" width="520" height="370" as="geometry" />
-        </mxCell>
         <mxCell id="sU_c6Er136trvMsLBxcg-44" value="MUD" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="510" width="280" height="360" as="geometry" />
         </mxCell>
@@ -198,9 +195,6 @@
         <mxCell id="sU_c6Er136trvMsLBxcg-47" value="Lay Down Object" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="660" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sU_c6Er136trvMsLBxcg-48" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="540" y="640" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="sU_c6Er136trvMsLBxcg-49" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sU_c6Er136trvMsLBxcg-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="675" as="sourcePoint" />
@@ -215,17 +209,11 @@
         <mxCell id="sU_c6Er136trvMsLBxcg-53" value="Check Inventory" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="740" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sU_c6Er136trvMsLBxcg-57" value="Talk with payers" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sU_c6Er136trvMsLBxcg-57" value="Talk with players" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="780" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sU_c6Er136trvMsLBxcg-58" value="Exit Game" style="ellipse;whiteSpace=wrap;html=1;opacity=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="820" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sU_c6Er136trvMsLBxcg-65" value="Take Object" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="635" y="540" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sU_c6Er136trvMsLBxcg-66" value="Check Inventory&lt;br&gt;Add Object to Inventory&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="870" y="525" width="228" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
