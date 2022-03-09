@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T16:30:03.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="-Os8JqB1vuG_MIbPZFdv" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T16:42:09.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="23D14uO3ESVMLg5gnMrd" version="16.6.4" type="github">
   <diagram id="1FeEh4J0cZGS1zZfSnQM" name="Page-1">
-    <mxGraphModel dx="1577" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1214,6 +1214,81 @@
         </mxCell>
         <mxCell id="g4gvdsMqDkV8rBHOtkoY-21" value="Lay Down Object(o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1192" y="826" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="745" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-22" target="g4gvdsMqDkV8rBHOtkoY-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2190" y="825" as="targetPoint" />
+            <mxPoint x="2370" y="795" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-24" value="Non-Empty &amp;nbsp;Room Inventory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="735" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-25" value="Give Object(o)[room.inventory.length &amp;gt; 1]&lt;br&gt;/room.Give Object(o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="665" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-24" target="g4gvdsMqDkV8rBHOtkoY-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2390" y="795" as="sourcePoint" />
+            <mxPoint x="2550" y="795" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2480" y="705" />
+              <mxPoint x="2440" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-31" value="Empty Room&lt;br&gt;Inventory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="745" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-32" value="Receive Object(o)&lt;br&gt;/room.Receive Object(o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2222" y="712" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-31" target="g4gvdsMqDkV8rBHOtkoY-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2250" y="815" as="sourcePoint" />
+            <mxPoint x="2260" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-36" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-24" target="g4gvdsMqDkV8rBHOtkoY-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2450" y="885" as="sourcePoint" />
+            <mxPoint x="2550" y="765" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2480" y="835" />
+              <mxPoint x="2440" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-37" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-24" target="g4gvdsMqDkV8rBHOtkoY-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2310" y="895" as="sourcePoint" />
+            <mxPoint x="2250" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-39" value="Receive Object(o)&lt;br&gt;/room.Receive Object(o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="845" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-40" value="Give Object(o)[room.inventory.length == 1]&lt;br&gt;/room.Give Object(o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2177" y="782" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-41" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4gvdsMqDkV8rBHOtkoY-31" target="g4gvdsMqDkV8rBHOtkoY-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2390" y="765" as="sourcePoint" />
+            <mxPoint x="2140" y="875" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2120" y="835" />
+              <mxPoint x="2160" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-42" value="Give Object (o)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2092" y="836" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g4gvdsMqDkV8rBHOtkoY-43" value="Empty Room&lt;br&gt;Inventory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="736" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
